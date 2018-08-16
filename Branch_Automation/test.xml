@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+     
+        
+         <listener class-name="Branch_QA.listeners"/>
+         <listener class-name="resources.ExtentReporterNG"/>
+         
+
+ </listeners>
+
+  <test name="Verifying sum of departments">
+    <classes>
+      <class name="Branch_QA.Verify_SumofDepartment"/>
+          </classes>
+      </test>
+    <test name="Verifying Employee names">
+    <classes>
+      <class name="Branch_QA.Verify_EmployeeN"/>
+          </classes>
+      </test>
+  <test name="Verifying Department names">
+    <classes>
+      <class name="Branch_QA.Verify_EmpDepartments"/>
+          </classes>
+      </test>
+</suite> <!-- Suite -->

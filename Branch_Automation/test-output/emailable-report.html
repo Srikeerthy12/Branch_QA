@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Verifying sum of departments</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">44,058</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Verifying Employee names</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">81,508</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Verifying Department names</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">73,433</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">14</th><th class="num">0</th><th class="num attn">1</th><th class="num">198,999</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Verifying sum of departments &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Branch_QA.Verify_SumofDepartment</td><td><a href="#m0">SumofDept</a></td><td rowspan="1">1534385721890</td><td rowspan="1">32257</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Verifying Employee names &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">Branch_QA.Verify_EmployeeN</td><td><a href="#m1">Verify_Marketing_Dept_Names</a></td><td rowspan="1">1534385768925</td><td rowspan="1">2003</td></tr><tr class="passedeven"><td><a href="#m2">Verify_Operations_Dept_Emp_names</a></td><td rowspan="1">1534385779712</td><td rowspan="1">1395</td></tr><tr class="passedeven"><td><a href="#m3">Verify_Partner_Growth_Dept_EmpNames</a></td><td rowspan="1">1534385790711</td><td rowspan="1">5505</td></tr><tr class="passedeven"><td><a href="#m4">Verify_Product_Dept_Names</a></td><td rowspan="1">1534385805076</td><td rowspan="1">392</td></tr><tr class="passedeven"><td><a href="#m5">Verify_Recruiting_Dept_EMpNames</a></td><td rowspan="1">1534385813301</td><td rowspan="1">343</td></tr><tr class="passedeven"><td><a href="#m6">verifyDataDept_names</a></td><td rowspan="1">1534385822267</td><td rowspan="1">1268</td></tr><tr class="passedeven"><td><a href="#m7">verify_EngDept_Names</a></td><td rowspan="1">1534385832135</td><td rowspan="1">3414</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Verifying Department names &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">Branch_QA.Verify_EmpDepartments</td><td><a href="#m8">Verify_DataDeptNames</a></td><td rowspan="1">1534385844081</td><td rowspan="1">5862</td></tr><tr class="passedeven"><td><a href="#m9">Verify_Marketing_DeptNames</a></td><td rowspan="1">1534385857925</td><td rowspan="1">1504</td></tr><tr class="passedeven"><td><a href="#m10">Verify_Operations_Deptnames</a></td><td rowspan="1">1534385868135</td><td rowspan="1">615</td></tr><tr class="passedeven"><td><a href="#m11">Verify_Partner_Growth_DeptNames</a></td><td rowspan="1">1534385876846</td><td rowspan="1">4291</td></tr><tr class="passedeven"><td><a href="#m12">Verify_Product_DeptNames</a></td><td rowspan="1">1534385889785</td><td rowspan="1">460</td></tr><tr class="passedeven"><td><a href="#m13">Verify_Recruiting_DeptNames</a></td><td rowspan="1">1534385898589</td><td rowspan="1">360</td></tr><tr class="passedeven"><td><a href="#m14">verify_EngDeptNames</a></td><td rowspan="1">1534385907168</td><td rowspan="1">2756</td></tr></tbody>
+</table>
+<h2>Verifying sum of departments</h2><h3 id="m0">Branch_QA.Verify_SumofDepartment#SumofDept</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [131] but found [133]
+	at Branch_QA.Verify_SumofDepartment.SumofDept(Verify_SumofDepartment.java:137)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Verifying Employee names</h2><h3 id="m1">Branch_QA.Verify_EmployeeN#Verify_Marketing_Dept_Names</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Branch_QA.Verify_EmployeeN#Verify_Operations_Dept_Emp_names</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Branch_QA.Verify_EmployeeN#Verify_Partner_Growth_Dept_EmpNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Branch_QA.Verify_EmployeeN#Verify_Product_Dept_Names</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Branch_QA.Verify_EmployeeN#Verify_Recruiting_Dept_EMpNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Branch_QA.Verify_EmployeeN#verifyDataDept_names</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Branch_QA.Verify_EmployeeN#verify_EngDept_Names</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Verifying Department names</h2><h3 id="m8">Branch_QA.Verify_EmpDepartments#Verify_DataDeptNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Branch_QA.Verify_EmpDepartments#Verify_Marketing_DeptNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Branch_QA.Verify_EmpDepartments#Verify_Operations_Deptnames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Branch_QA.Verify_EmpDepartments#Verify_Partner_Growth_DeptNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Branch_QA.Verify_EmpDepartments#Verify_Product_DeptNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Branch_QA.Verify_EmpDepartments#Verify_Recruiting_DeptNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Branch_QA.Verify_EmpDepartments#verify_EngDeptNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Branch_QA.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Verifying sum of departments(failed)">
+    <classes>
+      <class name="Branch_QA.Verify_SumofDepartment">
+        <methods>
+          <include name="SumofDept"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch_QA.Verify_SumofDepartment -->
+    </classes>
+  </test> <!-- Verifying sum of departments(failed) -->
+</suite> <!-- Failed suite [Suite] -->
