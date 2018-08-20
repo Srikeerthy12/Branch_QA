@@ -11,6 +11,7 @@
         <methods>
           <include name="SumofDept"/>
           <include name="initialize"/>
+          <include name="browserclose"/>
         </methods>
       </class> <!-- Branch_QA.Verify_SumofDepartment -->
     </classes>

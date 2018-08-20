@@ -1,2 +1,4 @@
-20:48:14.471 [main] INFO  resources.base - Enginerring department names are counted from ALl tabs
-20:48:16.155 [main] INFO  resources.base - Entered into Data Tab
+15:48:35.504 [main] INFO  resources.base - Driver is initialized
+15:48:38.792 [main] INFO  resources.base - Navigated to Team page
+15:48:38.845 [main] INFO  resources.base - Enginerring department names are counted from ALl tabs
+15:48:40.390 [main] INFO  resources.base - Entered into Data Tab

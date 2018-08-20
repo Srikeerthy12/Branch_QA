@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="15" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="199084" started-at="2018-08-16T02:15:11Z" finished-at="2018-08-16T02:18:30Z">
+  <suite name="Suite" duration-ms="194039" started-at="2018-08-20T22:45:28Z" finished-at="2018-08-20T22:48:42Z">
     <groups>
     </groups>
-    <test name="Verifying sum of departments" duration-ms="44058" started-at="2018-08-16T02:15:11Z" finished-at="2018-08-16T02:15:55Z">
+    <test name="Verifying sum of departments" duration-ms="52288" started-at="2018-08-20T22:45:28Z" finished-at="2018-08-20T22:46:20Z">
       <class name="Branch_QA.Verify_SumofDepartment">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_SumofDepartment@68e965f5]" name="initialize" is-config="true" duration-ms="10775" started-at="2018-08-16T02:15:11Z" finished-at="2018-08-16T02:15:21Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_SumofDepartment@6f27a732]" name="initialize" is-config="true" duration-ms="18269" started-at="2018-08-20T22:45:28Z" finished-at="2018-08-20T22:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="SumofDept()[pri:0, instance:Branch_QA.Verify_SumofDepartment@68e965f5]" name="SumofDept" duration-ms="32257" started-at="2018-08-16T02:15:21Z" finished-at="2018-08-16T02:15:54Z">
+        <test-method status="FAIL" signature="SumofDept()[pri:0, instance:Branch_QA.Verify_SumofDepartment@6f27a732]" name="SumofDept" duration-ms="32507" started-at="2018-08-20T22:45:46Z" finished-at="2018-08-20T22:46:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [131] but found [133]]]>
@@ -56,179 +56,183 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SumofDept -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_SumofDepartment@6f27a732]" name="browserclose" is-config="true" duration-ms="431" started-at="2018-08-20T22:46:20Z" finished-at="2018-08-20T22:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
       </class> <!-- Branch_QA.Verify_SumofDepartment -->
     </test> <!-- Verifying sum of departments -->
-    <test name="Verifying Employee names" duration-ms="81508" started-at="2018-08-16T02:15:55Z" finished-at="2018-08-16T02:17:16Z">
+    <test name="Verifying Employee names" duration-ms="72771" started-at="2018-08-20T22:46:20Z" finished-at="2018-08-20T22:47:33Z">
       <class name="Branch_QA.Verify_EmployeeN">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="13719" started-at="2018-08-16T02:15:55Z" finished-at="2018-08-16T02:16:08Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7523" started-at="2018-08-20T22:46:20Z" finished-at="2018-08-20T22:46:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Marketing_Dept_Names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Marketing_Dept_Names" duration-ms="2003" started-at="2018-08-16T02:16:08Z" finished-at="2018-08-16T02:16:10Z">
+        <test-method status="PASS" signature="Verify_Marketing_Dept_Names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Marketing_Dept_Names" duration-ms="1797" started-at="2018-08-20T22:46:28Z" finished-at="2018-08-20T22:46:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Marketing_Dept_Names -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1835" started-at="2018-08-16T02:16:10Z" finished-at="2018-08-16T02:16:12Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="2213" started-at="2018-08-20T22:46:30Z" finished-at="2018-08-20T22:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="6947" started-at="2018-08-16T02:16:12Z" finished-at="2018-08-16T02:16:19Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7399" started-at="2018-08-20T22:46:32Z" finished-at="2018-08-20T22:46:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Operations_Dept_Emp_names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Operations_Dept_Emp_names" duration-ms="1395" started-at="2018-08-16T02:16:19Z" finished-at="2018-08-16T02:16:21Z">
+        <test-method status="PASS" signature="Verify_Operations_Dept_Emp_names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Operations_Dept_Emp_names" duration-ms="1287" started-at="2018-08-20T22:46:39Z" finished-at="2018-08-20T22:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Operations_Dept_Emp_names -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1269" started-at="2018-08-16T02:16:21Z" finished-at="2018-08-16T02:16:22Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1007" started-at="2018-08-20T22:46:40Z" finished-at="2018-08-20T22:46:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="8334" started-at="2018-08-16T02:16:22Z" finished-at="2018-08-16T02:16:30Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7252" started-at="2018-08-20T22:46:41Z" finished-at="2018-08-20T22:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Partner_Growth_Dept_EmpNames()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Partner_Growth_Dept_EmpNames" duration-ms="5505" started-at="2018-08-16T02:16:30Z" finished-at="2018-08-16T02:16:36Z">
+        <test-method status="PASS" signature="Verify_Partner_Growth_Dept_EmpNames()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Partner_Growth_Dept_EmpNames" duration-ms="4045" started-at="2018-08-20T22:46:49Z" finished-at="2018-08-20T22:46:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Partner_Growth_Dept_EmpNames -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1189" started-at="2018-08-16T02:16:36Z" finished-at="2018-08-16T02:16:37Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1211" started-at="2018-08-20T22:46:53Z" finished-at="2018-08-20T22:46:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7668" started-at="2018-08-16T02:16:37Z" finished-at="2018-08-16T02:16:45Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7553" started-at="2018-08-20T22:46:54Z" finished-at="2018-08-20T22:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Product_Dept_Names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Product_Dept_Names" duration-ms="392" started-at="2018-08-16T02:16:45Z" finished-at="2018-08-16T02:16:45Z">
+        <test-method status="PASS" signature="Verify_Product_Dept_Names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Product_Dept_Names" duration-ms="386" started-at="2018-08-20T22:47:02Z" finished-at="2018-08-20T22:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Product_Dept_Names -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1209" started-at="2018-08-16T02:16:45Z" finished-at="2018-08-16T02:16:46Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1043" started-at="2018-08-20T22:47:02Z" finished-at="2018-08-20T22:47:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="6622" started-at="2018-08-16T02:16:46Z" finished-at="2018-08-16T02:16:53Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7573" started-at="2018-08-20T22:47:03Z" finished-at="2018-08-20T22:47:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Recruiting_Dept_EMpNames()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Recruiting_Dept_EMpNames" duration-ms="343" started-at="2018-08-16T02:16:53Z" finished-at="2018-08-16T02:16:53Z">
+        <test-method status="PASS" signature="Verify_Recruiting_Dept_EMpNames()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Verify_Recruiting_Dept_EMpNames" duration-ms="425" started-at="2018-08-20T22:47:11Z" finished-at="2018-08-20T22:47:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Recruiting_Dept_EMpNames -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1245" started-at="2018-08-16T02:16:53Z" finished-at="2018-08-16T02:16:54Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1191" started-at="2018-08-20T22:47:11Z" finished-at="2018-08-20T22:47:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7359" started-at="2018-08-16T02:16:54Z" finished-at="2018-08-16T02:17:02Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7129" started-at="2018-08-20T22:47:12Z" finished-at="2018-08-20T22:47:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verifyDataDept_names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="verifyDataDept_names" duration-ms="1268" started-at="2018-08-16T02:17:02Z" finished-at="2018-08-16T02:17:03Z">
+        <test-method status="PASS" signature="verifyDataDept_names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="verifyDataDept_names" duration-ms="1131" started-at="2018-08-20T22:47:19Z" finished-at="2018-08-20T22:47:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDataDept_names -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1116" started-at="2018-08-16T02:17:03Z" finished-at="2018-08-16T02:17:04Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="995" started-at="2018-08-20T22:47:20Z" finished-at="2018-08-20T22:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7483" started-at="2018-08-16T02:17:04Z" finished-at="2018-08-16T02:17:12Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="initialize" is-config="true" duration-ms="7017" started-at="2018-08-20T22:47:21Z" finished-at="2018-08-20T22:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verify_EngDept_Names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="verify_EngDept_Names" duration-ms="3414" started-at="2018-08-16T02:17:12Z" finished-at="2018-08-16T02:17:15Z">
+        <test-method status="PASS" signature="verify_EngDept_Names()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="verify_EngDept_Names" duration-ms="3419" started-at="2018-08-20T22:47:28Z" finished-at="2018-08-20T22:47:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_EngDept_Names -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1162" started-at="2018-08-16T02:17:15Z" finished-at="2018-08-16T02:17:16Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:Branch_QA.Verify_EmployeeN@51f116b8]" name="Closebrowser" is-config="true" duration-ms="1156" started-at="2018-08-20T22:47:32Z" finished-at="2018-08-20T22:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
       </class> <!-- Branch_QA.Verify_EmployeeN -->
     </test> <!-- Verifying Employee names -->
-    <test name="Verifying Department names" duration-ms="73433" started-at="2018-08-16T02:17:16Z" finished-at="2018-08-16T02:18:30Z">
+    <test name="Verifying Department names" duration-ms="68701" started-at="2018-08-20T22:47:33Z" finished-at="2018-08-20T22:48:42Z">
       <class name="Branch_QA.Verify_EmpDepartments">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7339" started-at="2018-08-16T02:17:16Z" finished-at="2018-08-16T02:17:24Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7275" started-at="2018-08-20T22:47:33Z" finished-at="2018-08-20T22:47:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_DataDeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_DataDeptNames" duration-ms="5862" started-at="2018-08-16T02:17:24Z" finished-at="2018-08-16T02:17:29Z">
+        <test-method status="PASS" signature="Verify_DataDeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_DataDeptNames" duration-ms="5637" started-at="2018-08-20T22:47:40Z" finished-at="2018-08-20T22:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_DataDeptNames -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="445" started-at="2018-08-16T02:17:29Z" finished-at="2018-08-16T02:17:30Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="221" started-at="2018-08-20T22:47:46Z" finished-at="2018-08-20T22:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7536" started-at="2018-08-16T02:17:30Z" finished-at="2018-08-16T02:17:37Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="6735" started-at="2018-08-20T22:47:46Z" finished-at="2018-08-20T22:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Marketing_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Marketing_DeptNames" duration-ms="1504" started-at="2018-08-16T02:17:37Z" finished-at="2018-08-16T02:17:39Z">
+        <test-method status="PASS" signature="Verify_Marketing_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Marketing_DeptNames" duration-ms="987" started-at="2018-08-20T22:47:53Z" finished-at="2018-08-20T22:47:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Marketing_DeptNames -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="296" started-at="2018-08-16T02:17:39Z" finished-at="2018-08-16T02:17:39Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="171" started-at="2018-08-20T22:47:54Z" finished-at="2018-08-20T22:47:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="8408" started-at="2018-08-16T02:17:39Z" finished-at="2018-08-16T02:17:48Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="6918" started-at="2018-08-20T22:47:54Z" finished-at="2018-08-20T22:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Operations_Deptnames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Operations_Deptnames" duration-ms="615" started-at="2018-08-16T02:17:48Z" finished-at="2018-08-16T02:17:48Z">
+        <test-method status="PASS" signature="Verify_Operations_Deptnames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Operations_Deptnames" duration-ms="615" started-at="2018-08-20T22:48:01Z" finished-at="2018-08-20T22:48:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Operations_Deptnames -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="341" started-at="2018-08-16T02:17:48Z" finished-at="2018-08-16T02:17:49Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="194" started-at="2018-08-20T22:48:02Z" finished-at="2018-08-20T22:48:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7753" started-at="2018-08-16T02:17:49Z" finished-at="2018-08-16T02:17:56Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7426" started-at="2018-08-20T22:48:02Z" finished-at="2018-08-20T22:48:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Partner_Growth_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Partner_Growth_DeptNames" duration-ms="4291" started-at="2018-08-16T02:17:56Z" finished-at="2018-08-16T02:18:01Z">
+        <test-method status="PASS" signature="Verify_Partner_Growth_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Partner_Growth_DeptNames" duration-ms="3425" started-at="2018-08-20T22:48:09Z" finished-at="2018-08-20T22:48:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Partner_Growth_DeptNames -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="518" started-at="2018-08-16T02:18:01Z" finished-at="2018-08-16T02:18:01Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="339" started-at="2018-08-20T22:48:13Z" finished-at="2018-08-20T22:48:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="8128" started-at="2018-08-16T02:18:01Z" finished-at="2018-08-16T02:18:09Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7334" started-at="2018-08-20T22:48:13Z" finished-at="2018-08-20T22:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Product_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Product_DeptNames" duration-ms="460" started-at="2018-08-16T02:18:09Z" finished-at="2018-08-16T02:18:10Z">
+        <test-method status="PASS" signature="Verify_Product_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Product_DeptNames" duration-ms="407" started-at="2018-08-20T22:48:20Z" finished-at="2018-08-20T22:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Product_DeptNames -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="488" started-at="2018-08-16T02:18:10Z" finished-at="2018-08-16T02:18:10Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="216" started-at="2018-08-20T22:48:21Z" finished-at="2018-08-20T22:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7855" started-at="2018-08-16T02:18:10Z" finished-at="2018-08-16T02:18:18Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7731" started-at="2018-08-20T22:48:21Z" finished-at="2018-08-20T22:48:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Verify_Recruiting_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Recruiting_DeptNames" duration-ms="360" started-at="2018-08-16T02:18:18Z" finished-at="2018-08-16T02:18:18Z">
+        <test-method status="PASS" signature="Verify_Recruiting_DeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="Verify_Recruiting_DeptNames" duration-ms="299" started-at="2018-08-20T22:48:29Z" finished-at="2018-08-20T22:48:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Recruiting_DeptNames -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="261" started-at="2018-08-16T02:18:18Z" finished-at="2018-08-16T02:18:19Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="2182" started-at="2018-08-20T22:48:29Z" finished-at="2018-08-20T22:48:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7956" started-at="2018-08-16T02:18:19Z" finished-at="2018-08-16T02:18:27Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="initialize" is-config="true" duration-ms="7111" started-at="2018-08-20T22:48:31Z" finished-at="2018-08-20T22:48:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verify_EngDeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="verify_EngDeptNames" duration-ms="2756" started-at="2018-08-16T02:18:27Z" finished-at="2018-08-16T02:18:29Z">
+        <test-method status="PASS" signature="verify_EngDeptNames()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="verify_EngDeptNames" duration-ms="3142" started-at="2018-08-20T22:48:38Z" finished-at="2018-08-20T22:48:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_EngDeptNames -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="247" started-at="2018-08-16T02:18:29Z" finished-at="2018-08-16T02:18:30Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:Branch_QA.Verify_EmpDepartments@3246fb96]" name="browserclose" is-config="true" duration-ms="318" started-at="2018-08-20T22:48:41Z" finished-at="2018-08-20T22:48:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
