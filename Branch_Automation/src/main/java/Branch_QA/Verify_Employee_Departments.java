@@ -6,9 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Verify_Employee_Departments
+import resources.base;
+
+public class Verify_Employee_Departments extends base
 {
-	public WebDriver driver;
+	
 
 	By AllTab_Data = By.xpath("//div[@class='info-block']/h4[contains(text(), 'Data')]");
 	By DeptNamesData = By.xpath("//div[@class='info-block']/h4[contains(text(), 'Data')]");
